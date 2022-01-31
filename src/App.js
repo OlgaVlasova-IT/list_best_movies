@@ -74,32 +74,3 @@ function App() {
 
 export default App;
 
-
-
-    {/* id} {showMore[{id}]} ? { desc.substring(0,150)+"..." } : {desc} <button className='btnShowMore'
-     onClick={()=> { 
-      //  console.log(showMore[item.id])
-      //  console.log(showMoreLess)
-      showMore[id] = !showMore[id];
-     //     console.log(showMore) */}
-  {/* //     //  let temp = Object.create(showMore)
-
-  //     //  temp.valueOf =  ! showMore.valueOf;
-  //     //  console.log(temp)
-       
-  //     //  showMore = Object.assign(showMore,temp);
-
-
-  // //      console.log()
-  // //     let temp = new Array(movies.length) ;
-  // //   temp= movies;
-  // //   let index = Object.values({id})[0] -1;
-  // //  console.log(index)
-  // //  console.log(temp[index].showMore)
-  // //   temp[index].showMore = !temp[index].showMore; */}
-  {/* //   console.log(temp[index].showMore)
-  //   console.log(temp)
-  //    setMovies(temp);
-  //    console.log(movies) 
-     }}>  Show { showMore ? "less" : "more"}</button></p>
-      */}
