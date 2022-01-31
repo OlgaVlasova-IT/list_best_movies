@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.movieCont{
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ flex-wrap: wrap;
+
+}.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+   width: 300px;
+  
+  margin: 20px;
+  }
+
+  .par {
+
+    text-align: justify;
+  }
+  
+  body{
+    /* background-color: #6E85B2;
+    font-family: 'Domine', serif;
+    background-image: url("12345.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; */
+    background: rgb(254,185,116);
+    background: radial-gradient(circle, rgba(254,185,116,1) 16%, rgba(229,103,125,0.434908997778799) 75%);
+    font-family: 'Cutive Mono', monospace;
+  }
+
+  .btnShowMore {
+    background-color: transparent;
+    border: none;
+    color:#089DE3;
+  }
+ .heart {
+
+  fill: red
+ }
+
+ .btnRemove {
+
+  background-color: #FC6461;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Cutive Mono', monospace;
+ }
+.btnLike {
+  background-color: transparent;
+  border: none;
+  margin:10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
